@@ -31,6 +31,11 @@ header: no
     </div>
     <div class="medium-8 columns">
         <h2>Teaching</h2>
+        <b>Spring 2024</b>
+        <ul>
+        <li>Introduction to Computer Systems (COSC 208)</li>
+        <li>Computer Networks (COSC 465)</li>
+        </ul>
         <b>Fall 2023</b>
         <ul>
         <li>Introduction to Computer Systems (COSC 208)</li>

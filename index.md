@@ -17,7 +17,7 @@ header: no
         <p style="font-weight:bold;">agemberjacobson@colgate.edu</p>
 
 
-        <p class="emphasize">310 McGregory Hall<br />
+        <p class="emphasize">Bernstein Hall 316<br />
         13 Oak Drive, Hamilton, NY 13346</p>
 
         <p style="font-style:italic;">Colgate University sits on the land of the
@@ -31,13 +31,9 @@ header: no
     </div>
     <div class="medium-8 columns">
         <h2>Teaching</h2>
-        <b>Spring 2024</b>
+        <b>Fall 2024</b>
         <ul>
-        <li>Introduction to Computer Systems (COSC 208)</li>
-        <li>Computer Networks (COSC 465)</li>
-        </ul>
-        <b>Fall 2023</b>
-        <ul>
+        <li>Introduction to Computing I (COSC 101)</li>
         <li>Introduction to Computer Systems (COSC 208)</li>
         </ul>
         <a href="teaching/">Full Teaching History >></a>

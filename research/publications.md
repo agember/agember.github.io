@@ -6,8 +6,28 @@ permalink: /research/publications/
 header: no
 ---
 
-## 2023
+## 2024
 {% include recentpubs.md %}
+
+## 2023
+<ul>
+<li><b>Generative, high-fidelity network traces</b><br />
+<a href="{{ site.url }}/docs/hotnets2023netdiffusion.pdf"><i
+class="fa fa-file-text-o"></i> Paper</a>
+Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, Paul Schmitt, Francesco Bronzino, Nick Feamster.<br />
+ACM Workshop on Hot Topics in Networks (HotNets),
+2023.</li>
+
+<li><b>Poster: Summarizing network configuration patterns</b> <br />
+<a href="{{ site.url }}/docs/icnp2022motifs.pdf"><i
+class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
+<a href="{{ site.url }}/docs/nsdi2203csl_poster.pdf"><i
+class="fa fa-file-image-o"></i> Poster</a><br />
+<br />
+Jyotirmay Chauhan, Aaron Gember-Jacobson.<br />
+USENIX Symposium on Networked Systems Design and Implementation (NSDI),
+2023.</li>
+</ul>
 
 ## 2022
 <ul>
@@ -51,8 +71,6 @@ Li.</br>
 USENIX Symposium on Networked Systems Design and Implementation (NSDI),
 2022.</li>
 </ul>
-
-
 
 ## 2021
 <ul>

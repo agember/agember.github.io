@@ -1,22 +1,22 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/4a87c0cb9e.css">
 
 <ul>
-<a href="{{ site.url }}/docs/hotnets2023netdiffusion.pdf"><i
-class="fa fa-file-text-o"></i> Paper</a>
-<li><b>Generative, high-fidelity network traces</b><br />
-Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, Paul Schmitt, Francesco Bronzino, Nick Feamster.<br />
-ACM Workshop on Hot Topics in Networks (HotNets),
-2023.</li>
-
-<li><b>Poster: Summarizing network configuration patterns</b> <br />
-<a href="{{ site.url }}/docs/icnp2022motifs.pdf"><i
-class="fa fa-file-text-o"></i> Extended abstract</a>
-<a href="<? echo $base_url
-?>{{ site.baseurl }}/docs/nsdi2203csl_poster.pdf"><i
-class="fa fa-file-image-o"></i> Poster</a><br />
+<li><b>Expresso: Control plane verification considering external routes</b> <br />
+<a href="{{ site.url }}/docs/sigcomm2024expresso.pdf"><i
+class="fa fa-file-text-o"></i> Paper</a><br />
 <br />
-Jyotirmay Chauhan, Aaron Gember-Jacobson.<br />
-USENIX Symposium on Networked Systems Design and Implementation (NSDI),
-2023.</li>
+Dan Wang, Peng Zhang, and Aaron Gember-Jacobson.<br />
+ACM SIGCOMM Conference,
+2024.<br />
+🏅 Best Paper Honorable Mention</li>
+
+<li><b>NetDiffusion: Network data augmentation through protocol-constrained traffic generations</b><br />
+<a href="{{ site.url }}/docs/pomacs2024netdiffusion.pdf"><i
+class="fa fa-file-text-o"></i> Paper</a>
+Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, Arjun Nitin Bhagoji, Paul Schmitt, Francesco Bronzino, and Nick Feamster.<br />
+Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS),
+February 2024.</li>
+
+
 
 </ul>

@@ -5,10 +5,10 @@ header: no
 ---
 
 ## Colgate University
-* Intro to Computing I (COSC 101): Fall 2021, Spring 2020, Spring 2018
+* Intro to Computing I (COSC 101): Fall 2024, Fall 2021, Spring 2020, Spring 2018
 * Intro to Computing II (COSC 102): Spring 2023
-* Intro to Computer Systems (COSC 208): Spring 2024, Fall 2023, Spring 2023, Fall 2022, Spring 2022, Fall 2021, Spring 2021, Fall 2020
-* Operating Systems (COSC 301): Spring 2019, Fall 2018, Fall 2017, Spring 2017, Fall 2016
+* Intro to Computer Systems (COSC 208): Fall 2024, Spring 2024, Fall 2023, Spring 2023, Fall 2022, Spring 2022, Fall 2021, Spring 2021, Fall 2020
+* Operating Systems (COSC 301): Spring 2025, Spring 2019, Fall 2018, Fall 2017, Spring 2017, Fall 2016
 * Computer Networks (COSC 465): Spring 2024, Spring 2022, Spring 2020, Spring 2019, Spring 2017
 * The Unreliable Internet (FSEM 136): Fall 2020, Fall 2018
 

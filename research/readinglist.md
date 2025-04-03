@@ -7,7 +7,7 @@ header: no
 ---
 
 
-<p><a href="/docs/readinglist.bib">Download BibTeX >></a></p>
+<p><a href="{{ site.url }}/docs/readinglist.bib">Download BibTeX >></a></p>
 <h2>Data Plane Verification</h2><ul start="1"><li>[<span class="bibtexkey">HSA</span>] <span class="authors">Kazemian, P.; Varghese, G. and McKeown, N.</span> <span class="title">Header Space Analysis: Static Checking for Networks</span>.  <span class="in">In USENIX Symposium on Networked Systems Design and         Implementation (NSDI)</span>, 2012.<span class="links"> [<span class="webpdf"><a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final8.pdf"
                 >pdf</a></span>]&nbsp;</span></li><li>[<span class="bibtexkey">NetPlumber</span>] <span class="authors">Kazemian, P.; Chang, M.; Zeng, H.; Varghese, G.; McKeown, N. and Whyte, S.</span> <span class="title">Real Time Network Policy Checking Using Header Space Analysis</span>.  <span class="in">In USENIX Symposium on Networked Systems Design and         Implementation (NSDI)</span>, 2013.<span class="links"> [<span class="webpdf"><a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final8.pdf"
                 >pdf</a></span>]&nbsp;</span></li><li>[<span class="bibtexkey">Anteater</span>] <span class="authors">Mai, H.; Khurshid, A.; Agarwal, R.; Caesar, M.; Godfrey, P. B. and King, S. T.</span> <span class="title">Debugging the data plane with Anteater</span>.  <span class="in">In SIGCOMM</span>, 2011.<span class="links"> [<span class="webpdf"><a href="http://www.cs.cornell.edu/~ragarwal/pubs/anteater.pdf"

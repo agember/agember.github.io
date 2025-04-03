@@ -31,10 +31,13 @@ header: no
     </div>
     <div class="medium-8 columns">
         <h2>Teaching</h2>
-        <b>Fall 2024</b>
+        <b>Fall 2025</b>
         <ul>
-        <li>Introduction to Computing I (COSC 101)</li>
         <li>Introduction to Computer Systems (COSC 208)</li>
+        </ul>
+        <b>Spring 2025</b>
+        <ul>
+        <li>Operating Systems (COSC 301)</li>
         </ul>
         <a href="teaching/">Full Teaching History >></a>
 

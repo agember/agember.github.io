@@ -13,7 +13,7 @@ header: no
 <ul>
 <li><b>Generative, high-fidelity network traces</b><br />
 <a href="{{ site.url }}/docs/hotnets2023netdiffusion.pdf"><i
-class="fa fa-file-text-o"></i> Paper</a>
+class="fa fa-file-text-o"></i> Paper</a><br />
 Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, Paul Schmitt, Francesco Bronzino, Nick Feamster.<br />
 ACM Workshop on Hot Topics in Networks (HotNets),
 2023.</li>
@@ -23,7 +23,6 @@ ACM Workshop on Hot Topics in Networks (HotNets),
 class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
 <a href="{{ site.url }}/docs/nsdi2203csl_poster.pdf"><i
 class="fa fa-file-image-o"></i> Poster</a><br />
-<br />
 Jyotirmay Chauhan, Aaron Gember-Jacobson.<br />
 USENIX Symposium on Networked Systems Design and Implementation (NSDI),
 2023.</li>

@@ -21,7 +21,7 @@ ACM Workshop on Hot Topics in Networks (HotNets),
 <li><b>Poster: Summarizing network configuration patterns</b> <br />
 <a href="{{ site.url }}/docs/icnp2022motifs.pdf"><i
 class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
-<a href="{{ site.url }}/docs/nsdi2203csl_poster.pdf"><i
+<a href="{{ site.url }}/docs/nsdi2023csl_poster.pdf"><i
 class="fa fa-file-image-o"></i> Poster</a><br />
 Jyotirmay Chauhan, Aaron Gember-Jacobson.<br />
 USENIX Symposium on Networked Systems Design and Implementation (NSDI),
@@ -75,10 +75,7 @@ USENIX Symposium on Networked Systems Design and Implementation (NSDI),
 <ul>
 <li><b>Detecting Configuration Errors Via Pattern Mining</b><br />
 <a href="{{ site.url }}/docs/netverify2021pattern.pdf"><i class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
-<a href="{{ site.url }}/docs/netverify2021pattern_slides.pdf"><i class="fa fa-file-powerpoint-o"></i> Slides</a>&emsp;
-<a href="https://www.youtube.com/watch?v=s9vwJLDMSlIf&start=4295&end=5680"
-target="_blank"><i class="fa fa-file-video-o"></i> Video</a>&emsp;
-<a href="https://github.com/colgate-cs-research/config-mining"><i class="fa fa-file-code-o"></i> Code</a>
+<a href="{{ site.url }}/docs/netverify2021pattern_slides.pdf"><i class="fa fa-file-powerpoint-o"></i> Slides</a>
 <br />
 Jyotirmay Chauhan, Devon Lee, Emily Yu, Aaron Gember-Jacobson.<br />
 Network Verification Workshop (NetVerify), 2021.</li>
@@ -98,8 +95,7 @@ Responsible Internet (TAURIN), 2021.</li>
 <li><b>Non-interoperability Detection for Routing Protocol Implementations</b><br />
 <a href="{{ site.url }}/docs/sigcomm2021interop.pdf"><i
 class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
-<a href="<? echo $base_url
-?>{{ site.url }}/docs/sigcomm2021noninterop_poster.pdf"><i
+<a href="{{ site.url }}/docs/sigcomm2021noninterop_poster.pdf"><i
 class="fa fa-file-image-o"></i> Poster</a><br />
 Xi Jiang, Aaron Gember-Jacobson.<br />
 SIGCOMM, 2021.<br />
@@ -146,8 +142,7 @@ arXiv Computing Research Repository (CoRR), abs/1906.02043, 2019.</li>
 
 <li><b>Localizing Router Configuration Errors Using Unsatisfiable Cores</b>
 [<a href="{{ site.url }}/docs/nsdi2019localizingerrors.pdf">abstract</a>]
-[<a href="<? echo $base_url
-?>{{ site.url }}/docs/nsdi2019localizingerrors_poster.pdf">poster</a>]
+[<a href="{{ site.url }}/docs/nsdi2019localizingerrors_poster.pdf">poster</a>]
 [<a
 href="https://github.com/colgate-cs-research/batfish/tree/faultloc">code</a>]
 <br/>

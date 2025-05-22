@@ -69,6 +69,13 @@ Peng Zhang, Aaron Gember-Jacobson, Yueshang Zuo, Yuhao Huang, Xu Liu, Hao
 Li.</br>
 USENIX Symposium on Networked Systems Design and Implementation (NSDI),
 2022.</li>
+
+<li><b>Localizing Router Configuration Errors Using Minimal Correction Sets</b><br />
+<a href="{{ site.url }}/docs/arxiv2022cel.pdf"><i
+class="fa fa-file-text-o"></i> Paper</a>
+<br />
+Aaron Gember-Jacobson, Ruchit Shrestha, Xiaolin Sun.</br>
+arXiv 2204.10785.</li>
 </ul>
 
 ## 2021

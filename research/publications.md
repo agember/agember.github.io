@@ -19,7 +19,7 @@ ACM Workshop on Hot Topics in Networks (HotNets),
 2023.</li>
 
 <li><b>Poster: Summarizing network configuration patterns</b> <br />
-<a href="{{ site.url }}/docs/icnp2022motifs.pdf"><i
+<a href="{{ site.url }}/docs/nsdi2023csl.pdf"><i
 class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
 <a href="{{ site.url }}/docs/nsdi2023csl_poster.pdf"><i
 class="fa fa-file-image-o"></i> Poster</a><br />

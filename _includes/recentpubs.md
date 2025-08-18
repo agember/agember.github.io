@@ -5,7 +5,6 @@
 <li><b>Poster: Light Security: Discovering Vulnerabilities in Theatrical Lighting Control Systems and Assessing Their Prevalence</b><br />
 <a href="{{ site.url }}/docs/soups2025light-security.pdf"><i class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
 <a href="{{ site.url }}/docs/soups2025light-security_poster.pdf"><i class="fa fa-file-image-o"></i> Poster</a><br />
-<br />
 Brian Douglas Jr., Aaron Gember-Jacobson.<br />
 USENIX Symposium on Usable Privacy and Security (SOUPS),
 2025.</li>
@@ -13,7 +12,6 @@ USENIX Symposium on Usable Privacy and Security (SOUPS),
 <li><b>Poster: Evaluating Browser-Based Networking for Real-Time Multiplayer Games</b> <br />
 <a href="{{ site.url }}/docs/nsdi2025browser-networking.pdf"><i class="fa fa-file-text-o"></i> Extended abstract</a>&emsp;
 <a href="{{ site.url }}/docs/nsdi2025browser-networking_poster.pdf"><i class="fa fa-file-image-o"></i> Poster</a><br />
-<br />
 Danny Orlando, Aaron Gember-Jacobson.<br />
 USENIX Symposium on Networked Systems Design and Implementation (NSDI),
 2025.</li>

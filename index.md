@@ -10,7 +10,7 @@ header: no
 <div class="row">
     <div class="medium-4 columns">
         <img src="images/aaron_2022_thumb.jpg" />
-        <p style="font-weight:bold;">Associate Professor &amp; Chair<br />
+        <p style="font-weight:bold;">Associate Professor<br />
         <a href="http://cs.colgate.edu">Department of Computer Science</a><br />
         <a href="http://colgate.edu">Colgate University</a></p>
         
@@ -31,14 +31,15 @@ header: no
     </div>
     <div class="medium-8 columns">
         <h2>Teaching</h2>
-        <b>Fall 2025</b>
+        <p><i>On sabbatical for 2026-2027 academic year</i></p>
+<!--        <b>Fall 2025</b>
         <ul>
         <li>Introduction to Computer Systems (COSC 208)</li>
         </ul>
         <b>Spring 2025</b>
         <ul>
         <li>Operating Systems (COSC 301)</li>
-        </ul>
+        </ul>-->
         <a href="teaching/">Full Teaching History >></a>
 
         <h2>Recent publications</h2>

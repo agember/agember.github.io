@@ -1,0 +1,91 @@
+$colgateMaroon: #821019;
+
+
+// Shared corner radius for content images and cards (carousel stays sharp).
+$imageRadius: 0.5rem;
+
+body {
+ font-size: 1rem;
+ line-height: 1.6;
+}
+
+.h1 {
+   font-size: 1.8rem;
+}
+
+.h2 {
+   font-size: 1.4rem;
+}
+
+.bg-colgate-maroon {
+  background: $colgateMaroon;
+  color: white;
+}
+
+// Wider content container on large screens (~85rem), matching colgate.edu.
+@media (min-width: 1200px) {
+  .container {
+    max-width: 85rem;
+  }
+
+  // Keep the homepage intro heading on one line in the two-column hero.
+  .home-intro-heading {
+    white-space: nowrap;
+  }
+}
+
+.department-description {
+  font-size: 1.0625rem;
+}
+
+.img-headshot {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: $imageRadius;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+// Rounds standalone content images to match the cards.
+.img-rounded {
+  border-radius: $imageRadius;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  background: $colgateMaroon;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+// Active page: maroon text with an underline (inset shadow avoids layout shift).
+.nav-link.active {
+  //color: $colgateMaroon;
+  box-shadow: inset 0 -2px 0 $colgateMaroon;
+}
+
+// Short maroon accent rule between homepage sections.
+.section-accent {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 1px;
+  background: $colgateMaroon;
+  opacity: 1;
+}
+
+.fa {
+  margin: 0 auto;
+  padding: 13px 0 0 0;
+}
+
+
+
+.bibtexkey {
+    font-weight: bold;
+}

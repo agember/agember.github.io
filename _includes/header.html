@@ -1,0 +1,105 @@
+<!-- Main navbar -->
+<nav class="navbar navbar-expand-lg bg-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="/"><h4 class='my-0'>Aaron Gember-Jacobson</h4></a>
+
+    <!-- Menu button for collapsed navbar -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Page links (sorted by "order" variable in page front matter) -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav my-2">
+       <!-- {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for link in sorted_pages %}
+          {% if page.url contains link.url %}
+            {% assign class = 'active' %}
+            {% assign aria = 'page' %}
+          {% else %}
+            {% assign class = '' %}
+            {% assign aria = '' %}
+          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link {{ class }}" aria-current="{{ aria }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+          </li>
+
+        {% endfor %}-->
+
+         {% assign all_pages = site.pages | sort: "path" %}
+
+        <!-- LEVEL 1: Look for root folders / pages (e.g., "/about/" or "/services/") -->
+        {% for p1 in all_pages %}
+          {% assign p1_parts = p1.url | split: '/' %}
+          
+          {% if p1_parts.size == 2 and p1.url != '/' %}
+            
+            <!-- Check if Level 1 item has any nested children anywhere in the site -->
+            {% assign has_children = false %}
+            {% for check in all_pages %}
+              {% if check.url contains p1.url and check.url != p1.url %}
+                {% assign has_children = true %}
+              {% endif %}
+            {% endfor %}
+
+            {% if has_children %}
+              <!-- Level 1 Dropdown Menu Wrapper -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="drop-{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ p1.title | default: p1.name }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="drop-{{ forloop.index }}">
+                  <!-- LEVEL 2: Find immediate children of this specific directory -->
+                  {% for p2 in all_pages %}
+                    {% assign p2_parts = p2.url | split: '/' %}
+                    
+                    <!-- Validates that p2 is one path layer deeper than p1 -->
+                    {% if p2_parts.size == 3 and p2.url contains p1.url %}
+                      
+                      <!-- Check if Level 2 item is a directory holding Level 3 items -->
+                      {% assign has_grand_children = false %}
+                      {% for check2 in all_pages %}
+                        {% if check2.url contains p2.url and check2.url != p2.url %}
+                          {% assign has_grand_children = true %}
+                        {% endif %}
+                      {% endfor %}
+
+                      {% if has_grand_children and p2.name == "index.md" or p2.name == "index.html" %}
+                        <!-- Level 2 Submenu Heading (Skipping individual index entries to avoid duplicate text links) -->
+                        <li class="dropdown-submenu">
+                          <a class="dropdown-item dropdown-toggle" href="#">{{ p2.title | default: p2.dir }}</a>
+                          <ul class="dropdown-menu">
+                            
+                            <!-- LEVEL 3: Find deep leaf elements -->
+                            {% for p3 in all_pages %}
+                              {% assign p3_parts = p3.url | split: '/' %}
+                              {% if p3_parts.size == 4 and p3.url contains p2.dir and p3.name != "index.md" and p3.name != "index.html" %}
+                                <li><a class="dropdown-item" href="{{ p3.url | relative_url }}">{{ p3.title | default: p3.name }}</a></li>
+                              {% endif %}
+                            {% endfor %}
+
+                          </ul>
+                        </li>
+                      {% elsif p2.name != "index.md" and p2.name != "index.html" %}
+                        <!-- Normal Level 2 Link -->
+                        <li><a class="dropdown-item" href="{{ p2.url | relative_url }}">{{ p2.title | default: p2.name }}</a></li>
+                      {% endif %}
+
+                    {% endif %}
+                  {% endfor %}
+
+                </ul>
+              </li>
+            {% else %}
+              <!-- Normal Level 1 Main Navbar Link -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ p1.url | relative_url }}">{{ p1.title | default: p1.name }}</a>
+              </li>
+            {% endif %}
+
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,7 +1,6 @@
 ---
-layout: page-fullwidth
+layout: page
 title: Publications
-subheadline: Research
 permalink: /research/publications/
 header: no
 ---

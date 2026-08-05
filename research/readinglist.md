@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page
 title: Network Verification & Synthesis Reading List
 subheadline: Research
 permalink: /research/readinglist/

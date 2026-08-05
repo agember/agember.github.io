@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page
 title: Teaching
 header: no
 ---

@@ -15,7 +15,6 @@ header: no
         
         <p style="font-weight:bold;"><i class="fa-regular fa-envelope"></i>agemberjacobson@colgate.edu</p>
 
-
         <p style="font-weight:bold;"><i class="fa-solid fa-location-dot"></i>Bernstein Hall 316<br />
         13 Oak Drive, Hamilton, NY 13346</p>
 
